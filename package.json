@@ -1,0 +1,25 @@
+{
+  "name": "concurrently_ts",
+  "version": "1.0.0",
+  "description": "Template to start both frontend and backend (REACT + Express) projects in typescript",
+  "main": "index.ts",
+  "scripts": {
+    "backend": "cd backend && npm install && npm start",
+    "frontend": "cd frontend  && npm install --force && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadogeri/Concurrently_TS.git"
+  },
+  "author": "Joseph Adogeri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jadogeri/Concurrently_TS/issues"
+  },
+  "homepage": "https://github.com/jadogeri/Concurrently_TS#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

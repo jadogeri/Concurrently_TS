@@ -1,0 +1,56 @@
+{
+  "name": "monorepo_mern_js_template",
+  "version": "1.0.0",
+  "description": "Monorepo template for react + express application in javascript",
+  "main": "index.js",
+  "scripts": {
+    "backend": "cd backend && npm install && npm start",
+    "frontend": "cd frontend  && npm install --force && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadogeri/MONOREPO_MERN_JS_TEMPLATE.git"
+  },
+  "author": "Joseph Adogeri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jadogeri/MONOREPO_MERN_JS_TEMPLATE/issues"
+  },
+  "homepage": "https://github.com/jadogeri/MONOREPO_MERN_JS_TEMPLATE#readme",
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
+
+
+
+
+
+
+{
+  "name": "my-typescript-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint . --ext .ts",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "ts-node-dev": "^2.0.0"
+  },
+  "files": ["dist"]
+}
