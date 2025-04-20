@@ -83,10 +83,10 @@ This is a template for start both frontend and backend application concurrently.
 
 #### **1.1.1 Run Concurrently**
 
-1 Enter command npm start then press enter to start express application.
+1 Enter command npm run dev then press enter to start express application.
 
 ```bash
-  npm start
+  npm run dev
 ```
 ![screenshot](assets/images/concurrently.png)
 
