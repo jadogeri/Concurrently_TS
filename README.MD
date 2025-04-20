@@ -32,11 +32,11 @@ This is a template for start both frontend and backend application concurrently.
         </li>
     </ul> 
     <ul>  
-        <li><a href="#9-license">2. License</a>
+        <li><a href="#2-license">2. License</a>
         </li>
     </ul> 
     <ul> 
-        <li><a href="#10-references">3. References</a>
+        <li><a href="#3-references">3. References</a>
         </li>
     <ul>
 </ul>
