@@ -1,5 +1,3 @@
-# **System Design Document (SDD)**
-
 ## **Concurrently TS**
 
 **Version:** 1.1
