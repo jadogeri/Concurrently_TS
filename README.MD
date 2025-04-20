@@ -64,7 +64,7 @@ This is a template for start both frontend and backend application concurrently.
 
 #### **1.1.1 Run Backend**
 
-1 Enter command npm start then press enter to start express application.
+1 Enter command npm run backend then press enter to start express application.
 
 ```bash
   npm run backend
@@ -74,7 +74,7 @@ This is a template for start both frontend and backend application concurrently.
 
 #### **1.1.2 Run Frontend**
 
-1 Enter command npm start then press enter to start react application.
+1 Enter command npm run frontend then press enter to start react application.
 
 ```bash
   npm run frontend
